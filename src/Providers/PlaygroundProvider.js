@@ -13,7 +13,13 @@ const initialData = [
             {
                 id: v4(),
                 title: 'index',
-                code: 'cout<<"Hello world";',
+                code: `#include <iostream>
+                       using namespace std;
+
+                       int main() {
+                       cout << "Hello, World!";
+                       return 0;
+                    }`,
                 language: 'cpp',
             }
         ]
